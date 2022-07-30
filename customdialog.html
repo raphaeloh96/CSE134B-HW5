@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSCWV3N0X5"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Dialogs</title>
+</head>
+<body>
+  <header>
+    <button id="alert">Alert</button>
+    <button id="confirm">Confirm</button>
+    <button id="prompt">Prompt</button>
+  </header>
+  <h2 id="result"></h2>
+  <script type="module">
+    import {alertPrompt} from './customdialog.js';
+    document.getElementById("alert").addEventListener("click", alertPrompt);
+    import {confirmPrompt} from './customdialog.js';
+    document.getElementById("confirm").addEventListener("click", confirmPrompt);
+    import {promptNote} from './customdialog.js';
+    document.getElementById("prompt").addEventListener("click", promptNote);
+  </script>
+</body>
+</html>

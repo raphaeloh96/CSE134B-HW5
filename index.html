@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSCWV3N0X5"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Raphael Oh's Website</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid gray;
+        }
+    </style>
+    <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
+    <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
+</head>  
+
+<body>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Go Back to Top</button>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Information</a></li>
+                <!--<li><a href="#experiments">Experiments</a></li>-->
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <a href="#navbar" class="go-to-top">
+            <img src="arrow-up.svg" alt="Go to Top">
+        </a>
+        <div id="intro">
+            <h1>
+                Raphael Young Oh
+            </h1>
+            <h2 class="intro-h2-tablet">
+                Software Developer | Computer Science B.S. | UCSD 2023
+            </h2>
+            <h2 class="intro-h2-mobile">
+                Software Developer
+            </h2>
+            <h2 class="intro-h2-mobile">
+                Computer Science B.S.
+            </h2>
+            <h2 class="intro-h2-mobile">
+                UCSD 2023
+            </h2>
+            <aside>
+                <p><i>"Let us not forget that human knowledge and skills alone cannot lead humanity to a happy and dignified life."</i>-Albert Einstein</p>
+            </aside>
+        </div>
+
+        <section id="about">
+            <h2>About</h2>
+            <h3>Biography</h3>
+            <picture>
+                <source srcset="me.png">
+                <img alt="Raphael Oh's Photo" src="me.png" width="160" height="160">
+            </picture>
+            <p>
+                I was born in Seoul, South Korea. <br>
+                My family immigrated to the United States in 2006. <br>
+                I studied Computer Science at <b>University of California, San Diego</b>. <br>
+                My primary interest lies in HTML to design websites and use high-level semantic HTML.
+            </p>
+            <form action="resume.pdf">
+                <button type="submit">
+                    View Raphael's Resume
+                </button>
+            </form>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Here are my Skill Profiecieny Level</p>
+
+            <table>
+                <colgroup>
+                    <col span="2" style="width: 40%;">
+                </colgroup>
+
+                <tr>
+                    <td>
+                        <p>Java</p>
+                    </td>
+                    <td><progress value="85" max="100"> 85% </progress></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>HTML</p>
+                    </td>
+                    <td><progress value="80" max="100"> 80% </progress></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>C++</p>
+                    </td>
+                    <td><progress value="70" max="100"> 70% </progress></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>JavaScript</p>
+                    </td>
+                    <td><progress value="50" max="100"> 50% </progress></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Python</p>
+                    </td>
+                    <td><progress value="20" max="100"> 20% </progress></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Kotlin</p>
+                    </td>
+                    <td><progress value="10" max="100"> 10% </progress></td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <p>Here is my Education History</p>
+            <h3>Northwood High School</h3>
+            <p class="">
+                I attended <strong>Northwood High School</strong> from 2011 to 2015. <br>
+                Northwood High School is located in Irvine, California.
+            </p>
+            <br>
+            <h3>Cerritos College</h3>
+            <p>
+                I attended <strong>Cerritos College</strong> from 2018 to 2020. <br>
+                My major was Computer Science, A.S. <br>
+                Cerritos College is located in Cerritos, California.
+            </p>
+            <br>
+            <h3>University of California, San Diego</h3>
+            <p>
+                I attended <strong>UCSD</strong> from 2020 to 2023. <br>
+                My major was Computer Science, B.S. <br>
+                UCSD is located in San Diego, California.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <p>Here is my Work History</p>
+            <div>
+                    <h3>Private Tennis Coach</h3>
+                    <p><em>January 2019 - Current</em></p>
+                    <p><b>Tennis Coach</b></p>
+                    <p>I am teaching tennis for all levels. I work with each clients for both strengths and weaknesses.</p>
+                    <br>
+                    <h3>Zzan Hillcrest Korean Soju House</h3>
+                    <p><em>November 2020 - Current</em></p>
+                    <p><b>Server</b></p>
+                    <p>I worked as a server/bartender at a Korean Soju House in Hillcrest, California.</p>
+                    <br>
+                    <h3>Rice Goban</h3>
+                    <p><em>June 2020 - October 2020</em></p>
+                    <p><b>Cashier</b></p>
+                    <p>I worked as a cashier at a Korean-fast food restaurant.</p>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div>
+
+                <h3>Exploring the Web Medium and First Steps in Web Development</h3>
+                <p> The student will begin to understand how to  look at and analyze web sites in order to observe both good and bad aspects of design and execution employing common browser and site based tools. <br> 
+                    The student will set-up a local dev environment to support later web development <br>
+                    The student will modify and publish a very rudimentary web site to serve as a foundation for practice and study. <br>
+                    The student will have a basic understanding of screen readers and how they read websites  </p>
+                <div class="project-buttons">
+                    <form action="https://github.com/raphaeloh96/cse134-hw1">
+                        <button type="submit">
+                                Source Code
+                            </button>
+                    </form>
+
+                    <form action="https://project1livedemo.com/">
+                        <button type="submit">
+                                Live Demo
+                            </button>
+                    </form>
+                </div>
+
+                <h3>Plan Site and Semantic HTML Execution - Site Build Out Phase 1</h3>
+                <p> The student will begin to understand the process of applying user centered thinking to help formulate documentation to build out a web site or application. <br>
+                    The student will explore standards based semantic HTML and its use. More than 50 tag types will be employed. <br>
+                    The student will scaffold up a small web site with no set look to demonstrate the progressive enhancement design philosophy and create a foundation for future assignments<br>     </p>
+                <div class="project-buttons">
+                    <form action="https://github.com/raphaeloh96/CSE134B-HW2">
+                        <button type="submit">
+                                Source Code
+                            </button>
+                    </form>
+
+                    <form action="https://project2livedemo.com/">
+                        <button type="submit">
+                                Live Demo
+                            </button>
+                    </form>
+                </div>
+
+                <h3>Standards Based CSS Responsive Web Design - Site Build Out Phase 2</h3>
+                <p> The student will begin to master the use of Cascading Style Sheets for designing the presentation layer of web sites and applications in a layered fashion. <br>
+                    The students will explore CSS syntax including Flexbox, CSS Grid, Media Queries, CSS variables, CSS animations, and variety of common CSS properties. The focus will be on standards based CSS, but there will be opportunity to explore proprietary features such as the need for vendor-prefixes. <br>
+                    Presentation technologies such as custom fonts and images will also be utilized to expose to students to the syntax, but emphasis will be placed on performance focused use of such technology which may include correct HTML usage (picture element and srcset), image format choice and optimization and font optimization strategies. <br>
+                    The student will explore responsive web design (RWD) and how to execute a look that should allow for mobile, tablet, and desktop forms. Upon conclusion the student should be able to discuss the challenges and benefits of this design pattern. <br> </p>
+                <div class="project-buttons">
+                    <form action="https://github.com/raphaeloh96/CSE134B-HW3">
+                        <button type="submit">
+                                Source Code
+                            </button>
+                    </form>
+
+                    <form action="https://project3livedemo.com/">
+                        <button type="submit">
+                                Live Demo
+                            </button>
+                    </form>
+                </div>
+
+                <h3>In Page JavaScript, Site Improvements and Misc. Experiments - Site Build Out Phase 3</h3>
+                <p>The student will begin to master the use of core JavaScript in support of later efforts. <br>
+                    Some puzzling aspects of JavaScript and basic features will be explored in a few lab style exercises that will be in support of the final step of the portfolio a "CRUD" feature. <br>
+                    The use of 3rd party JavaScript solutions for common tasks like analytics, content inclusion, and search will also be performed. <br>
+                    Further improvements to your portfolio website. <br> </p>
+                <div class="project-buttons">
+                    <form action="https://github.com/raphaeloh96/CSE134B-HW4">
+                        <button type="submit">
+                                Source Code
+                            </button>
+                    </form>
+
+                    <form action="https://project3livedemo.com/">
+                        <button type="submit">
+                                Live Demo
+                            </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <h3>Social Media</h3>
+            <ul>
+                <li> 
+                    <a href="https://www.linkedin.com/in/raphaeloh96/">
+                        <img class="social-icon" src="linkedin-icon.svg" alt="Connect via LinkedIn">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/raphaeloh96/">
+                        <img class="social-icon" src="fb-icon.svg" alt="Connect via Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/raphaeloh96/?hl=en">
+                        <img class="social-icon" src="ig-icon.svg" alt="Connect via Instagram">
+                    </a>
+                </li>
+            </ul>
+
+            <br>
+            <form>
+                <fieldset>
+                    <legend class="contact-form-legend">Contact me via Form</legend>
+                    <label for="name">Your Name:</label>
+                    <input class="contact-form-input" type="text" id="name" name="name"><br><br><br>
+
+                    <label for="email">Your Email Address:</label>
+                    <input class="contact-form-input" type="email" id="email" name="email"><br><br><br>
+
+                    <label for="subject">Choose Subject:</label>
+                    <input class="contact-form-input" list="subjects" name="subject" id="subject">
+                    <datalist id="subjects">
+                        <option value="Job Opportunities">
+                        <option value="Projects">
+                        <option value="Academics">
+                        <option value="Personal">
+                        <option value="Other">
+                    </datalist><br><br><br>
+
+                    <label for="message">Message:</label>
+                    <textarea class="contact-form-input" id="message" name="message"></textarea><br><br><br>
+
+                    <input class="contact-form-btn" type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+
+        <!--
+        <hr>
+        <section id="experiments">
+            <h2>
+                Experiments
+            </h2>
+            <h3>
+                To exercise other tags I considered making a "Experiments" section to my site and added as many pages as I see fit to meet the assignment requirements.
+            </h3>
+            <ul>
+                <li>
+                    <h4>canvas</h4>
+                    <canvas id="canvasExample" width="150" height="150">
+                    </canvas>
+                    <script>
+                        var canvas = document.getElementById("canvasExample");
+                        var ctx = canvas.getContext("2d");
+                        ctx.fillStyle = "#fdb9ae";
+                        ctx.fillRect(25, 25, 100, 100);
+                    </script>
+                </li>
+                <li>
+                    <h4>svg</h4>
+                    <span>This <svg width="40" height="40">
+                            <circle cx="20" cy="20" r="10" stroke="black" stroke-width="2" fill="blue" />
+                        </svg> is an example of the svg tag with an inline tag</span>
+                </li>
+                <li>
+                    <h4>optgroup & select</h4>
+                    <label for="algorithms">Choose a Golf Player:</label>
+                    <select name="algorithms" id="algorithms">
+                        <optgroup label="PGA Tour">
+                            <option value="SScheffler">S. Scheffler</option>
+                            <option value="RMcllroy">R. Mcllroy</option>
+                            <option value="JRahm">J. Rahm</option>
+                            <option value="PCantlay">P. Cantlay</option>
+                            <option value="XSchauffele">X. Schauffele</option>
+                        </optgroup>
+
+                        <optgroup label="LPGA Tour">
+                            <option value="JYKo">J. Y. Ko</option>
+                            <option value="MLee">M. Lee</option>
+                            <option value="NKorda">N. Korda</option>
+                            <option value="AThitikul">A. Thitikul</option>
+                            <option value="LKo">L. Ko</option>
+                        </optgroup>
+                    </select>
+                </li>
+                <li>
+                    <h4>picture & source</h4>
+                    <a href="https://www.linkedin.com/in/raphaeloh96/">
+                        <picture>
+                            <source media="(min-width:500px)"
+                                srcset="https://upload.wikimedia.org/wikipedia/commons/f/f8/LinkedIn_icon_circle.svg">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/LinkedIn_icon_circle.svg" alt="LinkedIn"
+                                style="width:70px;">
+                        </picture>
+                    </a>
+                </li>
+                <li>
+                    <h4>iframe</h4>
+                    <iframe width="1000" height="600" src="https://ucsd.edu/">
+                    </iframe>
+
+                </li>
+                <li>
+                    <h4>audio</h4>
+                    <audio controls>
+                        <source src="BlackPinkDDUDUDDUDU.mp3" type="audio/mpeg">
+                    </audio>
+                </li>
+                <li>
+                    <h4>video</h4>
+                    <video width="1000" height="500" controls>
+                        <source src="IVELoveDive.mp4" type="video/mp4">
+                    </video>
+                </li>
+                <li>
+                    <h4>pre & code</h4>
+                    <pre>
+                        <code>
+                        # Function that calculates n'th fibonacci number.
+                        def fibonacci(n):
+                            solution = (((1+sqrt(5))**n)-((1-sqrt(5)))**n)/(2**n*sqrt(5))
+                            return solution
+                        </code>
+                    </pre>
+                </li>
+                <li>
+                    <h4>figure & figcaption</h4>
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png"
+                            alt="South Korea Flag">
+                        <figcaption>Fig. South Korea Flag</figcaption>
+                    </figure>
+
+                </li>
+                <li>
+                    <h4>template tag:</h4>
+                    <p>
+                    Template tag is used for content that has to be hidden when the page loads. <br>
+                    We can clone and display the content inside the template tag using Javascript later.
+                    </p>
+                    <template id="templateExample">
+                        <p>This is hidden! </p>
+                    </template>
+                </li>
+            </ul>
+        </section> -->
+
+    </main>
+    <footer>
+        <nav class="footer-links"></nav>
+        &copy; Copyright 2022, Raphael Oh
+    </footer>
+
+    <script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dbb72ae3b497c6e',m:'WGhhe6UMEAZeobx3.U_0I4veat.LEsEvSVZGtn_KA9k-1644560181-0-AYgJWkIOn1rAQbUeZj40VGKBNQR+WPwu29L7YI8t3R/sSMuswy9qqkKDcbSa9KY9YjUiSmjc/l/MV0nz7qprsLFuq70/+lSxeSuHm4eoNJsUnChicHbIw0a/CC9HnGWGE263QAC12MXb5pt8lG018FUd+P5FHufIHXXGS9xZ/hl937nqXZhcKzmB26qH5/hmcQ==',s:[0xeb660911f4,0xbfdd26da27],}})();</script></body>
+
+</body>
+
+</html>   
